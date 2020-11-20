@@ -1,0 +1,54 @@
+*{
+    color: red;
+}
+
+header{
+    background-color: burlywood;
+}
+
+nav{
+    background-color: cornflowerblue;
+}
+header h1{
+    color: purple;
+}
+
+article{
+    background-color: cyan;
+}
+.container-post{
+    border: 1px solid black;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.container-post{
+    background-color: red;
+}
+
+#post-unique{
+    background-color: blueviolet;
+}
+
+#post{
+    background-color: black;
+}
+
+.container-post{
+    background-color: pink;
+}
+
+.parrafo{
+    font-size: 25px;
+}
+
+/*selecto descendiente */
+/* Selecciona todos span que se encuentra dentro 
+de un elemento que tenga la clase .parrafo*/
+.parrafo span{
+    color: black;
+}
+
+.element-change{
+    background-color: chocolate;
+}
