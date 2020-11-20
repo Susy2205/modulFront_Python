@@ -1,54 +1,59 @@
+
 *{
-    color: red;
+color: black;
+font-size: 20px;
+text-align: center;
 }
 
-header{
-    background-color: burlywood;
-}
-
-nav{
-    background-color: cornflowerblue;
-}
-header h1{
-    color: purple;
-}
-
-article{
-    background-color: cyan;
-}
-.container-post{
-    border: 1px solid black;
+header {
     background-color: blue;
-    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    border: 1px solid red;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    width: 98%;
+    height: 30%; /* only for demonstration, should be removed */
+    background: orange;
+    padding: 10px;
+    border: 2px solid lightgreen;
+  }
+
+header h1{
+    color: white;
 }
 
-.container-post{
+aside{
+    background-color: yellow;
+    border: 2px solid red;
+    display: inline-block;
+}
+
+.container{
+    width: 20%;
+    height: 300px;
+    padding-top: 190px;
+}
+main{
     background-color: red;
+    border: 2px solid blue;
+    display: inline-block;
+    width: 50%;
+    height: 490px;
+    color: white;
+    margin: 10px;
+}
+article{
+    background-color:yellow;
+    height: 70px;
+    margin: 10px;
 }
 
-#post-unique{
-    background-color: blueviolet;
-}
-
-#post{
-    background-color: black;
-}
-
-.container-post{
-    background-color: pink;
-}
-
-.parrafo{
-    font-size: 25px;
-}
-
-/*selecto descendiente */
-/* Selecciona todos span que se encuentra dentro 
-de un elemento que tenga la clase .parrafo*/
-.parrafo span{
-    color: black;
-}
-
-.element-change{
-    background-color: chocolate;
+footer{
+    background-color: purple;
+    height: 70px;
+    margin: 10px;
+    color: white;
 }
