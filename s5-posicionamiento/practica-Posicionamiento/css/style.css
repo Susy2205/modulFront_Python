@@ -14,14 +14,14 @@
 }
 
 .uno{
-    background-image: url(/assets/images/fondo_1.jpg);
+    background-image: url(../assets/images/fondo_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
 .dos{
-    background-image: url(/assets/images/fondo_2.jpg);
+    background-image: url(../assets/images/fondo_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
