@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+  border: 1px solid #ccc;
+  height: 200px;
+}
+
+.section .form-login {
+  border: 1px solid #ccc;
+  padding: 20px;
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.section input {
+  height: 25px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+/*# sourceMappingURL=stlye.css.map */
